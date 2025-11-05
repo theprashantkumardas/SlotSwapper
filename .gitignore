@@ -1,0 +1,16 @@
+# Dependency Directories
+node_modules/
+vendor/
+
+# Build Artifacts
+/dist
+/build
+*.log
+
+# Sensitive/Configuration Files
+.env
+config.local.js
+
+# OS/IDE Files
+.DS_Store
+*.swp
