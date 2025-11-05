@@ -8,6 +8,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./routes/authRoutes');
+const eventRoutes = require('./routes/eventRoutes');
 
 // Middleware
 app.use(express.json()); // Body parser for JSON
@@ -25,6 +27,7 @@ app.get('/', (req, res) => {
 
 //Api routes
 app.use('/api/auth', authRoutes); // Authentication routes
-
+app.use('/api/auth', authRoutes);
+app.use('/api/events', eventRoutes); // Event routes
 // Start the server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
