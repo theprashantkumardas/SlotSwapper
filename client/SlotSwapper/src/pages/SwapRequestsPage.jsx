@@ -20,7 +20,7 @@ import {
 } from '@mui/material';
 import { format, parseISO } from 'date-fns';
 
-const API_BASE_URL = 'http://localhost:8080/api/swaps/';
+const API_BASE_URL = 'https://slotswapper-em5h.onrender.com/swaps/';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;

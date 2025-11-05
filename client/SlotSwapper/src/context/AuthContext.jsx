@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'; // For redirection on logout
 
 const AuthContext = createContext();
 
-const API_URL = 'http://localhost:8080/api/auth/'; // Adjust if your backend port is different
+const API_URL = 'https://slotswapper-em5h.onrender.com/api/auth/'; // Adjust if your backend port is different
 
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);

@@ -24,7 +24,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import EventFormModal from '../components/events/EventFormModal'; // We'll create this
 import { format, parseISO } from 'date-fns';
 
-const API_BASE_URL = 'http://localhost:8080/api/'; // Base URL for events
+const API_BASE_URL = 'https://slotswapper-em5h.onrender.com/'; // Base URL for events
 
 function DashboardPage() {
     const [events, setEvents] = useState([]);

@@ -24,7 +24,7 @@ import {
 } from '@mui/material';
 import { format, parseISO } from 'date-fns';
 
-const API_BASE_URL = 'http://localhost:8080/api/';
+const API_BASE_URL = 'https://slotswapper-em5h.onrender.com/';
 
 function MarketplacePage() {
     const [swappableSlots, setSwappableSlots] = useState([]);

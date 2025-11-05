@@ -18,7 +18,7 @@ import {
 import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 import { parseISO, isValid } from 'date-fns';
 
-const API_BASE_URL = 'http://localhost:8080/api/events';
+const API_BASE_URL = 'https://slotswapper-em5h.onrender.com/events';
 
 function EventFormModal({ open, handleClose, eventToEdit }) {
     const [title, setTitle] = useState('');
