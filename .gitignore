@@ -3,8 +3,8 @@ node_modules/
 vendor/
 
 # Build Artifacts
-/dist
-/build
+# /dist
+# /build
 *.log
 
 # Sensitive/Configuration Files
